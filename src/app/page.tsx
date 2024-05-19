@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         <div className="navbar-end"></div>
       </div>
-
+      <div id="container-9e520d8f5a90221868d8bf473a1930e2"></div>
       {/* Main content */}
       <main className="flex-grow container mx-auto mt-8">
         <h2 className="text-2xl font-bold mb-4">Features</h2>
@@ -80,6 +80,15 @@ export default function Home() {
         type="text/javascript"
         src="//pl23354268.highcpmgate.com/ca/a7/5a/caa75acb45b64091ff8e1234dd19904b.js"
       />
+      <Script
+        type="text/javascript"
+        src="//pl23354380.highcpmgate.com/81/b0/93/81b093db2978097f21023c604e15757e.js"
+      ></Script>
+      <Script
+        async={true}
+        data-cfasync="false"
+        src="//rancidmorsel.com/9e520d8f5a90221868d8bf473a1930e2/invoke.js"
+      ></Script>
     </div>
   );
 }

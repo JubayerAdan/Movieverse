@@ -1,5 +1,4 @@
 "use client";
-"use client";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import Script from "next/script";
@@ -93,15 +92,11 @@ const page = () => {
   );
   const ultimateData = data.find((d) => d.name === cleanedParam);
 
-  const handleAddToFavorite = (id: number) => {
-    // Implement favorite logic here
-    console.log("Add to favorite", id);
-  };
-
   const isFavorite = false; // Replace with actual favorite status logic
 
   return (
     <div className="h-screen">
+      <div id="container-9e520d8f5a90221868d8bf473a1930e2"></div>
       {ultimateData && (
         <section
           className={`bg-cover bg-no-repeat bg-details bg-center`}
@@ -156,6 +151,15 @@ const page = () => {
         type="text/javascript"
         src="//pl23354268.highcpmgate.com/ca/a7/5a/caa75acb45b64091ff8e1234dd19904b.js"
       />
+      <Script
+        type="text/javascript"
+        src="//pl23354380.highcpmgate.com/81/b0/93/81b093db2978097f21023c604e15757e.js"
+      ></Script>
+      <Script
+        async={true}
+        data-cfasync="false"
+        src="//rancidmorsel.com/9e520d8f5a90221868d8bf473a1930e2/invoke.js"
+      ></Script>
     </div>
   );
 };
