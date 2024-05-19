@@ -1,6 +1,7 @@
 import MoviesPage from "@/components/movies";
 import { useEffect } from "react";
 import axios from "axios";
+import Script from "next/script";
 
 const page = async () => {
   const data = [
@@ -72,6 +73,10 @@ const page = async () => {
   return (
     <div className="bg-[#0c0d0f] h-auto w-full">
       <MoviesPage movies={data} />
+      <Script
+        type="text/javascript"
+        src="//pl23354268.highcpmgate.com/ca/a7/5a/caa75acb45b64091ff8e1234dd19904b.js"
+      />
     </div>
   );
 };

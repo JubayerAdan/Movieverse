@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link"; // Import Link from Next.js
+import Script from "next/script"; // Import Script from Next.js
 
 export default function Home() {
   return (
@@ -73,6 +74,12 @@ export default function Home() {
           <p>&copy; 2024 Free Movies. All rights reserved.</p>
         </div>
       </footer>
+
+      {/* External Script */}
+      <Script
+        type="text/javascript"
+        src="//pl23354268.highcpmgate.com/ca/a7/5a/caa75acb45b64091ff8e1234dd19904b.js"
+      />
     </div>
   );
 }

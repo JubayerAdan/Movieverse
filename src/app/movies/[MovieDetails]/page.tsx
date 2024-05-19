@@ -2,6 +2,7 @@
 "use client";
 import Image from "next/image";
 import { useParams } from "next/navigation";
+import Script from "next/script";
 import React from "react";
 
 const page = () => {
@@ -151,6 +152,10 @@ const page = () => {
           </div>
         </section>
       )}
+      <Script
+        type="text/javascript"
+        src="//pl23354268.highcpmgate.com/ca/a7/5a/caa75acb45b64091ff8e1234dd19904b.js"
+      />
     </div>
   );
 };
