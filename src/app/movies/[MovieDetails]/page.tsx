@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useParams } from "next/navigation";
 import Script from "next/script";
 import React from "react";
@@ -128,13 +129,19 @@ const page = () => {
                         >
                           Watch Now
                         </button>
-                        <button
-                          className={`btn btn-accent text-white ${
-                            isFavorite ? "text-red-600" : ""
-                          }`}
+                        <Link
+                          href={
+                            "https://rancidmorsel.com/cnbaj7vk1?key=d936e9c70606c6f7ad9302a04fb2d1c3"
+                          }
                         >
-                          Download
-                        </button>
+                          <button
+                            className={`btn btn-accent text-white ${
+                              isFavorite ? "text-red-600" : ""
+                            }`}
+                          >
+                            Download
+                          </button>
+                        </Link>
                       </div>
                       <p className="mt-4 text-gray-100">
                         {ultimateData.description}
